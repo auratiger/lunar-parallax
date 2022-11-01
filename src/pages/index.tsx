@@ -1,9 +1,12 @@
 import React from "react"
 import type { HeadFC } from "gatsby"
+import { App } from "@common"
 
 const IndexPage = () => {
    return (
-      <main></main>
+      <App>
+         <main></main>
+      </App>
    )
 }
 

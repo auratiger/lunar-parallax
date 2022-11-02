@@ -1,10 +1,11 @@
 import React from "react"
 import type { HeadFC } from "gatsby"
-import { App } from "@common"
+import { App, Header } from "@common"
 
 const IndexPage = () => {
    return (
       <App>
+         <Header />
          <main></main>
       </App>
    )

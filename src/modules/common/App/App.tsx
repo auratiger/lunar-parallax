@@ -4,6 +4,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import './reset.css';
 import './fonts.css';
+import { COLORS } from '@constants';
 
 const GlobalStyles = createGlobalStyle`
    * {
@@ -17,6 +18,7 @@ const GlobalStyles = createGlobalStyle`
    body {
       min-height: 100vh;
       overflow-x: hidden;
+      background: ${COLORS.background};
    }
 
 `;

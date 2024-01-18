@@ -29,3 +29,8 @@
     ```shell
     npm run develop
     ```
+
+
+## Example
+
+![image](https://github.com/auratiger/lunar-parallax/assets/26046839/b2ff1853-49b3-42e0-b3a9-a5f924765490)
